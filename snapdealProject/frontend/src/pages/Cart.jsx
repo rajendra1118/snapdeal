@@ -43,7 +43,7 @@ const navigate= useNavigate()
       });
       const data = res?.data;
 
-      //console.log(data)
+      console.log(data)
       setCartProduct(data);
     } catch (error) {
       console.log(error);
